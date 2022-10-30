@@ -1,0 +1,64 @@
+@import url(../fonts/fontiran.css);
+
+*,
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: IRANSans, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: var(--weight-normal);
+  line-height: var(--leading-normal);
+  /* max-width: 100%; */
+  /* overflow: hidden; */
+}
+
+body {
+  display: block;
+  width: 100%;
+  direction: rtl;
+  min-height: 100%;
+  font-weight: 300;
+  /* overflow: hidden;/ */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+  font-family: IRANSans, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited,
+button,
+button:hover {
+  text-decoration: none !important;
+}
+
+a,
+button,
+span[role="button"] {
+  cursor: pointer;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+img{
+  /* width: 100%; */
+  height: auto;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
